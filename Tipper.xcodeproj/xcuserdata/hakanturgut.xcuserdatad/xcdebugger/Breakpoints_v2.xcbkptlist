@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Tipper/ViewController.swift"
-            timestampString = "590293175.436092"
+            timestampString = "590870632.089041"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
-            landmarkName = "ViewController"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "TipViewController"
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>

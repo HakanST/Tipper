@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		9C287B1623286D8300A1AA06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C287B1523286D8300A1AA06 /* AppDelegate.swift */; };
-		9C287B1823286D8300A1AA06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C287B1723286D8300A1AA06 /* ViewController.swift */; };
+		9C287B1823286D8300A1AA06 /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C287B1723286D8300A1AA06 /* TipViewController.swift */; };
 		9C287B1B23286D8300A1AA06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C287B1923286D8300A1AA06 /* Main.storyboard */; };
 		9C287B1D23286D8400A1AA06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C287B1C23286D8400A1AA06 /* Assets.xcassets */; };
 		9C287B2023286D8400A1AA06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C287B1E23286D8400A1AA06 /* LaunchScreen.storyboard */; };
 		9C287B2B23286D8400A1AA06 /* TipperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C287B2A23286D8400A1AA06 /* TipperTests.swift */; };
 		9C287B3623286D8400A1AA06 /* TipperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C287B3523286D8400A1AA06 /* TipperUITests.swift */; };
+		9CD6BC982337F99300FB8500 /* DiscountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD6BC972337F99300FB8500 /* DiscountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		9C287B1223286D8300A1AA06 /* Tipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C287B1523286D8300A1AA06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C287B1723286D8300A1AA06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C287B1723286D8300A1AA06 /* TipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
 		9C287B1A23286D8300A1AA06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C287B1C23286D8400A1AA06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C287B1F23286D8400A1AA06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		9C287B3123286D8400A1AA06 /* TipperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C287B3523286D8400A1AA06 /* TipperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipperUITests.swift; sourceTree = "<group>"; };
 		9C287B3723286D8400A1AA06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CD6BC972337F99300FB8500 /* DiscountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				9C287B2923286D8400A1AA06 /* TipperTests */,
 				9C287B3423286D8400A1AA06 /* TipperUITests */,
 				9C287B1323286D8300A1AA06 /* Products */,
+				9C3ABC662331CAAA00E669C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				9C287B1523286D8300A1AA06 /* AppDelegate.swift */,
-				9C287B1723286D8300A1AA06 /* ViewController.swift */,
+				9C287B1723286D8300A1AA06 /* TipViewController.swift */,
+				9CD6BC972337F99300FB8500 /* DiscountViewController.swift */,
 				9C287B1923286D8300A1AA06 /* Main.storyboard */,
 				9C287B1C23286D8400A1AA06 /* Assets.xcassets */,
 				9C287B1E23286D8400A1AA06 /* LaunchScreen.storyboard */,
@@ -123,6 +127,13 @@
 				9C287B3723286D8400A1AA06 /* Info.plist */,
 			);
 			path = TipperUITests;
+			sourceTree = "<group>";
+		};
+		9C3ABC662331CAAA00E669C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +204,11 @@
 				TargetAttributes = {
 					9C287B1123286D8300A1AA06 = {
 						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
 					};
 					9C287B2523286D8400A1AA06 = {
 						CreatedOnToolsVersion = 10.3;
@@ -256,7 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C287B1823286D8300A1AA06 /* ViewController.swift in Sources */,
+				9C287B1823286D8300A1AA06 /* TipViewController.swift in Sources */,
+				9CD6BC982337F99300FB8500 /* DiscountViewController.swift in Sources */,
 				9C287B1623286D8300A1AA06 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,7 +456,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = HakanTurgut.Tipper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HakanTurgut.Tipper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,7 +474,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = HakanTurgut.Tipper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HakanTurgut.Tipper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
